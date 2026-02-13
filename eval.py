@@ -265,7 +265,7 @@ def run_evaluation(model, dataset_name, dataset, result_file,
 if __name__ == '__main__':
     args = parser.parse_args()
     model = hmr(config.SMPL_MEAN_PARAMS)
-    checkpoint = torch.load(args.checkpoint)
+    checkpoint = torch.load(args.checkpoint, weights_only=False)
     model.load_state_dict(checkpoint['model'], strict=False)
     model.eval()
 
