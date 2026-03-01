@@ -1,3 +1,4 @@
+Fork of the SPIN repository updated for compatibility with Python 3.12.
 # SPIN - SMPL oPtimization IN the loop
 Code repository for the paper:  
 **Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop**  
